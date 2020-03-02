@@ -1,23 +1,30 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'M PLUS Rounded 1c', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: lightgrey;
+    color: white;
 }
 
 header {
   margin: 0;
   padding: 0;
 }
+
 nav {
-    background-color: grey;
+    background-color: rgb(95, 94, 94);
     margin: 0;
-    padding: 10px;
     display: flex;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center;
+    text-align: center;
 }
 
-nav :first-child {
-    font-size: larger;
+nav h2 {
+    font-size: 1.7em;
+}
+
+.smashing_logo {
+    font-size: 1em;
 }
 
 nav > button {
@@ -31,6 +38,33 @@ nav > button {
 
 .header_title {
     position: absolute;
-    left: 50%;
-    
+    left: calc(50% - 200px);
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    color: rgb(66, 66, 66);
+}
+
+.header_articles {
+    display: flex;
+    justify-content: center;
+}
+
+.header_articles section {
+    background-color: rgb(175, 174, 174);
+    height: 700px;
+    padding: 150px 70px 0 70px;
+}
+
+.header_articles h2 {
+    font-size: 2.5em;
+}
+
+.header_articles p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#highlight_article {
+    background-color: rgb(197, 197, 197);
 }
