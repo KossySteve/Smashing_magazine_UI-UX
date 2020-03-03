@@ -141,7 +141,14 @@ nav > button {
   text-align: center;
   border-bottom: 10px solid rgb(43, 43, 43);
   padding: 10px;
-  margin-left: calc(50% - 157.89px);
+}
+
+.article_links_position_1 {
+  margin-left: calc(50% - 138.17px);
+}
+
+.article_links_position_2 {
+    margin-left: calc(50% - 84px);
 }
 
 .pre_launch_book {
@@ -170,6 +177,7 @@ nav > button {
   color: black;
   margin: 30px;
   padding: 20px 90px;
+  border-radius: 5px;
 }
 
 .person_of_the_week {
