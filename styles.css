@@ -112,8 +112,8 @@ nav > button {
   border-radius: 5px;
   margin: auto;
   margin-bottom: 60px;
-  padding-top: 60px;
   padding-bottom: 200px;
+  padding-top: 60px;
   text-align: center;
   width: 95%;
 }
@@ -201,9 +201,9 @@ nav > button {
 }
 
 .curated_posts li {
-  text-decoration: underline;
-  font-size: 1.5em;
   color: rgb(85, 85, 233);
+  font-size: 1.5em;
+  text-decoration: underline;
 }
 
 .smashing_daily {
@@ -239,8 +239,8 @@ nav > button {
 
 footer ul {
   margin: auto;
-  width: 85%;
   margin-bottom: 80px;
+  width: 85%;
 }
 
 footer li {
@@ -250,9 +250,9 @@ footer li {
 }
 
 footer {
-  text-align: center;
-  margin-top: 200px;
   background-color: grey;
+  margin-top: 200px;
+  text-align: center;
 }
 
 footer h3 {
@@ -261,20 +261,20 @@ footer h3 {
 }
 
 footer p {
-  width: 500px;
-  margin: auto;
   font-size: 1.3em;
+  margin: auto;
+  width: 500px;
 }
 
 .footer_links {
-  width: 650px;
   margin: auto;
   margin-top: 50px;
   padding-bottom: 100px;
+  width: 650px;
 }
 
 .footer_links a {
-  font-size: 1.3em;
   color: white;
+  font-size: 1.3em;
   padding: 0 10px;
 }
