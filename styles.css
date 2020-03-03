@@ -19,8 +19,8 @@ nav {
   text-align: center;
 }
 
-nav > h2 {
-  font-size: 1.7em;
+.nav_sections {
+  font-size: 1.5em;
 }
 
 .smashing_logo {
@@ -49,13 +49,20 @@ nav > button {
   justify-content: center;
 }
 
-.header_articles article {
+.non_highlight_article {
   background-color: rgb(175, 174, 174);
   padding: 150px 70px 300px 70px;
 }
 
-.header_articles h2 {
-  font-size: 2.5em;
+h2 {
+  font-size: 50px;
+  color: white;
+}
+
+h3 {
+  color: black;
+  font-size: 2em;
+  padding: 0 40px;
 }
 
 footer p {
@@ -69,14 +76,14 @@ footer p {
   text-align: center;
 }
 
-#highlight_article {
+.highlight_article {
   background-color: rgb(197, 197, 197);
+  color: black;
+  padding: 150px 70px 300px 70px;
 }
 
-.latest_post h2 {
+.highlight_article h2{
   color: black;
-  font-size: 2em;
-  padding: 0 40px;
 }
 
 .latest_post p {
@@ -109,11 +116,6 @@ footer p {
   width: 700px;
 }
 
-#highligth_post > h2,
-#highligth_post p{
-  color: white;
-}
-
 .new_on_samshingtv {
   height: 900px;
   position: relative;
@@ -129,11 +131,6 @@ footer p {
   padding-top: 60px;
   text-align: center;
   width: 95%;
-}
-
-.new_on_samshingtv h2 {
-  color: white;
-  font-size: 3em;
 }
 
 .article_links {
@@ -202,10 +199,6 @@ footer p {
   padding: 20px 70px;
 }
 
-.curated_posts h2 {
-  font-size: 1.7em;
-}
-
 footer li {
   display: inline;
   font-size: 1.8em;
@@ -224,7 +217,6 @@ footer li {
   border-radius: 10px;
   color: white;
   grid-column: 2 / 4;
-  height: 500px;
   padding: 20px 80px;
 }
 
