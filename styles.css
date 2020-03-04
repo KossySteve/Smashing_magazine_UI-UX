@@ -65,13 +65,21 @@ h3 {
   padding: 0 40px;
 }
 
+h4 {
+  margin-left: 45px;
+}
+
+h5 {
+  margin-left: 45px;
+}
+
 footer p {
   font-size: 1.3em;
   margin: auto;
   width: 500px;
 }
 
-.header_articles p {
+.header_p {
   font-size: 1.2em;
   text-align: center;
 }
@@ -80,6 +88,11 @@ footer p {
   background-color: rgb(197, 197, 197);
   color: black;
   padding: 150px 70px 300px 70px;
+}
+
+.highlight_title {
+  font-size: 3em;
+  font-weight: bold;
 }
 
 .latest_post p {
@@ -160,6 +173,10 @@ footer p {
   border-radius: 6px;
   font-size: 30px;
   padding: 20px;
+}
+
+.writers p {
+  padding-right: 40px;
 }
 
 .writers {
