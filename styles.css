@@ -104,7 +104,7 @@ footer p {
 
 .latest_post {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%; 
+  grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-rows: 33.33% 33.33% 33.33%;
 }
 
@@ -156,7 +156,7 @@ footer p {
 }
 
 .article_links_position_2 {
-    margin-left: calc(50% - 84px);
+  margin-left: calc(50% - 84px);
 }
 
 .pre_launch_book {
@@ -195,7 +195,7 @@ footer p {
 }
 
 .smashing_box {
-  background-color:rgb(43, 43, 43);
+  background-color: rgb(43, 43, 43);
   color: white;
   font-size: 25px;
   margin: 0;
