@@ -84,6 +84,10 @@ h5 {
   margin-left: 45px;
 }
 
+h6 {
+  display: none;
+}
+
 footer p {
   font-size: 1.3em;
   margin: auto;
