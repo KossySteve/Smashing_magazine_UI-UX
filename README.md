@@ -10,7 +10,7 @@ This is a microverse project to recreate the UI/UX for the smashing magazine. Fo
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KossySteve/NewYorkTimes-Article-page-clone/7ec18f6b56ef578bf68cf69a446e2f760868e274/index.html)
+[Live Demo Link](https://rawcdn.githack.com/KossySteve/Smashing_magazine_UI-UX/82a2716c3899635b0457615de49c4a9e7b0be187/index.html)
 
 ## Authors
 
