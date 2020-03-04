@@ -55,8 +55,8 @@ nav > button {
 }
 
 h2 {
-  font-size: 50px;
   color: white;
+  font-size: 50px;
 }
 
 h3 {
@@ -95,8 +95,8 @@ footer p {
 
 .latest_post {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr
 }
 
 .latest_post article {
@@ -171,8 +171,8 @@ footer p {
   border-radius: 5px;
   color: black;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 30px;
   padding: 20px 90px;
 }
@@ -192,8 +192,8 @@ footer p {
 .curated_posts {
   color: black;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin: 30px;
   margin-bottom: 60px;
   padding: 20px 70px;
