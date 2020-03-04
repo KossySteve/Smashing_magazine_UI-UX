@@ -45,13 +45,24 @@ nav > button {
 }
 
 .header_articles {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.non_highlight_article {
-  background-color: rgb(175, 174, 174);
+.header_padding {
   padding: 150px 70px 300px 70px;
+}
+
+.header_article_1 {
+  background-color: rgb(184, 184, 184);
+}
+
+.header_article_2 {
+  background-color: rgb(206, 206, 206);
+}
+
+.header_article_3 {
+  background-color: rgb(129, 129, 129);
 }
 
 h2 {
