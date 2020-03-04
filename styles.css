@@ -95,8 +95,8 @@ footer p {
 
 .latest_post {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr
+  grid-template-columns: 33.33% 33.33% 33.33%; 
+  grid-template-rows: 33.33% 33.33% 33.33%;
 }
 
 .latest_post article {
@@ -171,8 +171,8 @@ footer p {
   border-radius: 5px;
   color: black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
   margin: 30px;
   padding: 20px 90px;
 }
@@ -192,8 +192,8 @@ footer p {
 .curated_posts {
   color: black;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 50% 50%;
   margin: 30px;
   margin-bottom: 60px;
   padding: 20px 70px;
